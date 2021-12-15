@@ -6,12 +6,12 @@
       </h2>
     </template>
 
-    <div class="">
-      <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-        <div class="overflow-hidden">
-          <div class="py-12 sm:p-8 flex justify-between">
-            <QuickAddCard :type="lead" />
-          </div>
+    <div class="py-8">
+      <div class="max-w-4xl mx-auto sm:px-6 lg:px-8">
+        <div
+          class="p-6 bg-gray-300 border-gray-400 border rounded-md shadow-md"
+        >
+          Yo
         </div>
       </div>
     </div>
