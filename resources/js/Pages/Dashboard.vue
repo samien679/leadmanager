@@ -7,11 +7,25 @@
     </template>
 
     <div class="py-8">
-      <div class="max-w-4xl mx-auto sm:px-6 lg:px-8">
-        <div
-          class="p-6 bg-gray-300 border-gray-400 border rounded-md shadow-md"
-        >
-          Yo
+      <div class="max-w-3xl mx-auto sm:px-6 lg:px-8">
+        <div class="p-6 bg-teal-400 sm:rounded-md shadow-md">
+          <div class="flex justify-around">
+            <div class="p-8 flex">
+              <div
+                class="
+                  w-16
+                  h-16
+                  text-center
+                  rounded-full
+                  border border-teal-700
+                "
+              >
+                3
+              </div>
+              <div>Asiakasta</div>
+            </div>
+            <div class="p-8">2</div>
+          </div>
         </div>
       </div>
     </div>
