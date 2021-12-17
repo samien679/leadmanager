@@ -8,23 +8,12 @@
 
     <div class="py-8">
       <div class="max-w-3xl mx-auto sm:px-6 lg:px-8">
-        <div class="p-6 bg-teal-400 sm:rounded-md shadow-md">
+        <div
+          class="p-6 bg-gray-200 sm:rounded-sm shadow-sm border border-gray-400"
+        >
           <div class="flex justify-around">
-            <div class="p-8 flex">
-              <div
-                class="
-                  w-16
-                  h-16
-                  text-center
-                  rounded-full
-                  border border-teal-700
-                "
-              >
-                3
-              </div>
-              <div>Asiakasta</div>
-            </div>
-            <div class="p-8">2</div>
+            <DashboardItem :value="57" :description="Leadia" />
+            <DashboardItem :value="12" :description="Asiakasta" />
           </div>
         </div>
       </div>
@@ -36,12 +25,13 @@
 import { defineComponent } from "vue";
 import AppLayout from "@/Layouts/AppLayout.vue";
 import Welcome from "@/Jetstream/Welcome.vue";
-import QuickAddCard from "../Components/QuickAddCard.vue";
 import JetButton from "@/Jetstream/Button.vue";
 import JetInput from "@/Jetstream/Input.vue";
 import JetCheckbox from "@/Jetstream/Checkbox.vue";
 import JetLabel from "@/Jetstream/Label.vue";
 import JetValidationErrors from "@/Jetstream/ValidationErrors.vue";
+import QuickAddCard from "../Components/QuickAddCard.vue";
+import DashboardItem from "../Components/DashboardItem.vue";
 
 export default defineComponent({
   components: {
@@ -53,6 +43,7 @@ export default defineComponent({
     JetLabel,
     JetValidationErrors,
     QuickAddCard,
+    DashboardItem,
   },
 });
 </script>
